@@ -22,8 +22,8 @@ android {
         buildToolsVersion rootProject.ext.buildToolsVersion
     } else {
         logger.warn('compileSdkVersion not found in rootProject')
-        compileSdkVersion 21
-        buildToolsVersion "20.0.0"
+        compileSdkVersion 24
+        buildToolsVersion "23.0.3"
     }
 
     defaultConfig {
@@ -35,7 +35,7 @@ android {
     }
 
     productFlavors {
-        play
+        
         fdroid
     }
 
